@@ -8,10 +8,11 @@ Add this code on functions.php
 ---------------------------------------------------------*/
 require_once('assets/alux-nav-walker.php');
 
+
 On header display navigation menu
 
 wp_nav_menu([
-     'menu'            => 'header',
+     'menu'             => 'header',
      'theme_location'  => 'header',
      'container'       => 'nav',
      'container_id'    => 'menu-sub-2',
